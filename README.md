@@ -202,7 +202,7 @@ http://localhost:3000
 Add screenshots here after deployment.
 
 ```md
-![Home Page](screenshots/home.png)
+![Home Page](digit_recognition_demo.png)
 ```
 
 ---
