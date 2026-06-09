@@ -201,11 +201,9 @@ http://localhost:3000
 
 Add screenshots here after deployment.
 
-```md
-![Neural Digit Recognizer](digit_recognition_demo.png)
-```
+## Screenshots
 
----
+![Neural Digit Recognizer](digit_recognition_demo.png)
 
 ## Author
 
