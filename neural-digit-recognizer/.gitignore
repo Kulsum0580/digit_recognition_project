@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+*.h5
+
+# Node
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+
+# Misc
+.DS_Store
+*.log
+.env

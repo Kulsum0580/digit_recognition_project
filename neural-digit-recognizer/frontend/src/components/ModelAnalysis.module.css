@@ -1,0 +1,60 @@
+.panel {
+  background: var(--card2);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem 1.1rem;
+  flex: 1;
+}
+
+.title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.38rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 12px 1fr 34px;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.barTrack {
+  height: 4px;
+  background: var(--bar-bg);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 99px;
+  width: 0%;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.barFill.highlight {
+  background: var(--accent-lighter);
+}
+
+.pct {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  color: var(--muted);
+  text-align: right;
+}
